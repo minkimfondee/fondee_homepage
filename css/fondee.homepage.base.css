@@ -1,0 +1,316 @@
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css');
+
+html{
+	font-size: 	10px;
+}
+body{
+	padding-top: 88px;
+	margin: 0 auto;
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', sans-serif;
+
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	height: 88px;
+	line-height: 88px;
+	z-index: 1;
+}
+nav, header, section{
+	width: 100%;
+}
+nav > div{
+	height: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.side_menu{
+	display: none;
+	position: fixed;
+	top: 88px;
+	right: 0;
+	background-color: #ffffff;
+	width: 100%;
+	padding: 20px;
+	border-bottom: 1px solid #e9e9e9;
+}
+#mobile_menu_button{
+	display: none;
+	padding: 30px 10px;
+	vertical-align: middle;
+	float: right;
+	cursor: pointer;
+}
+.wrapper_content{
+	height: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+img{
+	width: 100%;
+}
+img.fondee_logo{
+	width: 115px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.wrapper_nav_menu{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	float: right;
+}
+ul.wrapper_nav_menu > li{
+	display: inline-block;
+	float: left;
+}
+ul.wrapper_nav_menu > li > a{
+	padding: 0 20px;
+	text-decoration: none;
+	color: inherit;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.select_lang{
+	padding: 7px 20px !important;
+	border-radius: 19px;
+	background-color: #ebebf7;
+}
+.wrapper_header_text p{
+	margin: 0;
+}
+.button_start{
+	-webkit-appearance:none;
+	width: 260px;
+	height: 54px;
+	background-image:  linear-gradient(99deg, #8a65e1, #885dee);
+	border-radius: 27px;
+	border: 0;
+}
+
+
+.wrapper_content_inner_box{
+	width: 100%;
+	min-height: 385px;
+	padding: 40px;
+	box-sizing: border-box;
+	box-shadow: 0 5px 25px -1px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+.wrapper_content_inner_box{
+	
+}
+.wrapper_content_inner_box > ul{
+	margin-top: 50px;
+}
+
+.oval{
+	display: inline-block;
+	vertical-align: middle;
+	width: 13px;
+	height: 13px;
+	margin-right: 13px;
+	border-radius: 50%;
+	background-color: #d5c7f0;
+}
+
+.arrow_red{
+	width: 13px;
+	margin-left: 1px;
+}
+
+.feature_img_wrap{
+
+	background-color: #f4f4f4;
+}
+.feature_img_wrap > img{
+
+}
+
+/*블럭 스타일*/
+.block_wrap{
+
+}
+.block_x2{
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding: 0 30px;
+}
+.block_x2 > img{
+
+}
+
+.block_x4{
+	display: inline-block;
+	width: 250px;
+	vertical-align: top;
+	box-sizing: border-box;
+	padding: 0 30px;
+	margin-bottom: 30px;
+}
+/*.block_wrap .block_x2:nth-of-type(1){
+	padding-right: 30px;
+}
+.block_wrap .block_x2:nth-of-type(2){
+	padding-left: 30px;
+}*/
+/*블럭 스타일*/
+
+
+
+/*폰트 스타일*/
+.font_45_bld{
+	/*font-size: 45px;*/
+	font-weight: bold;
+	font-size: 4.5rem;
+}
+.font_42_bld{
+	/*font-size: 42px;*/
+	font-weight: bold;
+	font-size: 4.2rem;
+}
+.font_38_nml{
+	font-size: 3.8rem;
+	font-weight: normal;
+}
+.font_35_nml{
+	font-size: 3.5rem;
+	font-weight: normal;
+}
+.font_22_nml{
+	font-size: 2.2rem;
+	font-weight: normal;
+}
+.font_20_nml{
+	font-size: 2rem;
+	font-weight: normal;
+}
+.font_18_bld{
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+.font_18_nml{
+	font-size: 1.8rem;
+	font-weight: normal;
+}
+.font_16_nml{
+	font-size: 1.6rem;
+	font-weight: normal;
+}
+.font_16_300{
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+
+.font_black_dark{
+	color: #040402;
+}
+.font_black_mid{
+	color: #323232;
+}
+.font_black_soft{
+	color: #3b3b3b;
+}
+.font_black{
+	color: #050606;
+}
+.font_purple_dark{
+	color: #3b2f54;
+}
+.font_purple{
+	color: #9371e9;
+}
+.font_purple_soft{
+	color: #6b46bc;
+}
+.font_grey{
+	color: #7d7d7d;
+}
+.font_white{
+	color: #ffffff;
+}
+.font_white_light{
+	color: #b7b3d3;
+}
+.text_center{
+	text-align: center;
+}
+.text_left{
+	text-align: left;
+}
+/*폰트 스타일*/
+
+/*배경 스타일*/
+.bg_purple_grad{
+	background-image: linear-gradient(111deg, #8a65e1, #683ad4);
+}
+.bg_purple{
+	background-color: #eee6fd;
+}
+.bg_grey{
+	background-color: #fafafa;
+}
+.bg_white{
+	background-color: #ffffff;
+}
+.bg_purple_dark{
+	background-color: #393462;
+}
+/*배경 스타일*/
+
+
+
+
+
+@media(max-width: 800px){
+	html{
+		font-size: 8px;
+	}
+}
+
+@media(max-width: 550px){
+	#mobile_menu_button{
+		display: inline-block;
+	}
+	#menu_button{
+		display: none;
+	}
+
+	html{
+		font-size: 8px;
+	}
+}
+
+@media(max-width: 1024px){
+	.block_x2{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.wrapper_content_inner_box{
+		min-height: unset;
+	}
+	.wrapper_to_be_rotate{
+		transform: rotate(180deg);
+	}
+	.wrapper_to_be_rotate_child{
+		transform:rotate(180deg);
+	}
+	section{
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+}
